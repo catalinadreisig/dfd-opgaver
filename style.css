@@ -10,3 +10,82 @@
 
 
 /* Begynd her... */
+
+
+umscodepen hejhehej.csshej{hejhejhejfrontend_exercisees_catalina/README.mdhttps://github.com/catalinadreisig/dfd-opgaver.gitcatalinafrontendexedesign_for_developershttps://github.com/catalinadreisig/dfd-opgaver.gidesigndesigngitdfdcatalinadreisig/dfd-opgaverhttps://github.com/catalinadreisig/dfd-opgaver.githttps://github.com/catalinadreisig/dfd-opgaver.gitdesigndfddesign_fordeveloperscata/README.mdCLASS	BESKRIVELSE	EKSEMPEL	LINK
+:has()	En selector der kan sættes på således at den sætter det css på du skriver HVIS parent du taler til har det elementer du specificere. 	div:has(img){ width:100%}	https://developer.mozilla.org/en-US/docs/Web/CSS/:has
+		Sætter width 100% på div hvis den har et img child. 
+:hoover	Når man fører musen henover dette element gør den som det css du skriver.	div:hoover{	
+		color:blue;}
+		Sætter blue på div når musen "hoover" hen over elementet
+:visited	Eksempelvis et link man ikke vil have bliver lilla efter siden er besøgt, kan man tilføjecss til elementet. Så man selv bestemmer hvordan elementet skal se ud efter besøgt.   	Div:vistited{	
+		Color:blue;}
+p = “Vælg alle p-elementer”
+p.vigtig = “Vælg alle p-elementer, som har klassen ‘vigtig’”
+Forsæt selv herunder...
+section p = 
+section > h2 = 
+main > * = 
+article * = 
+h2 + p = 
+ul > li + li =
+* + * = 
+.column :last-child =
+li:nth-of-type(3) = 
+a :hover = 
+p ~ p = 
+button:is(:hover, :focus-visible) = 
+section > p:not(:first-of-type, :last-child) = 
+:is(ul, ol) > li + li = 
+ul[class] > :first-child = 
+:nth-last-child(1 of .a) = 
+div:has(img) = 
+a {
+  &:hover {...}
+} =section p ssection p =>1. p = “Vælg alle p-elementer”
+2. p.vigtig = “Vælg alle p-elementer, som har klassen ‘vigtig’”
+Forsæt selv herunder...
+3. section p = 
+4. section > h2 = 
+5. main > * = 
+6. article * = 
+7. h2 + p = 
+8. ul > li + li =
+9. * + * = 
+10. .column :last-child =
+11. li:nth-of-type(3) = 
+12. a :hover = 
+13. p ~ p = 
+14. button:is(:hover, :focus-visible) = 
+15. section > p:not(:first-of-type, :last-child) = 
+16. :is(ul, ol) > li + li = 
+17. ul[class] > :first-child = 
+18. :nth-last-child(1 of .a) = 
+19. div:has(img) = 
+20. a {
+  &:hover {...}
+} = 
+5. main > *article 4. h2 + p =5. ul > li + li 6. * + *7. .column :last-child 8. li:nth-of-type(3) =9. a :hover 10. p ~ p =11. button:is(:hover, :focus-visible) = 12. section > p:not(:first-of-type, :last-child) =13. :is(ul, ol) > li + li 14. ul[class] > :first-child =15. :nth-last-child(1 of .a) =16. div:has(img) =17. a {
+  &:hover {...}
+}section p > 2
+main > * =chatforkalr: main > * = 
+forklar denne kode: main > * = article * Hvilket som helst element i article et elementtaler til både h2 & p taler til de to første li´er i "u´en* + * 
+oversæt adjacentAn element
+… directly adjacent to an element.An element
+… directly adjacent to an element.An element
+… directly adjacent to an element.An element
+… directly adjacent to an element.tager det sidste der er i columncolumn  htmltager den tredje linår man holder musen over et a tagp ~ p 
+et p element efter et p element<section>
+<p>
+<h2>hej</h2>
+</p<p></p> button:is(:hover, :focus-visible) 
+ikke den første eller sidstedet tales tili, men  nogen af de midterstesection > p:not(:first-of-type, :last-child) (pseudo):is(ul, ol) > li + li 
+  p:has(img) {
+  display: contents;
+}<article>
+  
+
+    <img>
+
+  
+</article>https://codepen.io/catalinadreisig/pen/MWRwWLy?editors=110&layout=left
