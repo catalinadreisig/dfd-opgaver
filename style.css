@@ -13,6 +13,43 @@
 }
 
 /* Begynd her... */
+
+.card {
+  padding: 1rem;
+  margin: 1rem;
+  background: #0b3a67;
+
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  align-items: center;
+
+  h3 {
+    font-weight: 700;
+    font-size: 1.75rem;
+  }
+
+  p {
+    font-weight: 500;
+  }
+
+  img {
+    max-width: 8rem;
+    border-radius: calc(infinity * 1px);
+  }
+}
+
+ul {
+  display: flex;
+  gap: 2rem;
+
+  svg {
+    color: #0b3a67;
+    height: auto;
+  }
+}
+
+/*
 body {
   background-color: #e3edfb;
   color: black;
@@ -61,3 +98,4 @@ body {
     }
   }
 }
+*/
