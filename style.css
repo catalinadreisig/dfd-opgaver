@@ -1,6 +1,14 @@
 @import url("https://fonts.cdnfonts.com/css/gill-sans-2");
 @import url("https://fonts.cdnfonts.com/css/abril-fatface");
 
+html {
+  line-height: 1.6;
+}
+> * + * {
+  /* margin-block-start */
+  margin-top: var(--flow-space, 0.5rlh);
+}
+
 article {
   font-family: "Gill Sans", sans-serif;
   max-inline-size: 400px;
@@ -13,7 +21,7 @@ article {
 
 .picture {
   display: grid;
-  padding: 0.5rem;
+  padding-bottom: 1rem;
 
   > * {
     grid-area: 1 / 1;
@@ -32,14 +40,12 @@ article {
     letter-spacing: 2px;
     line-height: 1;
     place-self: end;
-    background: #bdc4ce;
+    background: #06060690;
     color: #fff;
     margin: 1rem;
   }
 
   img {
-    border: 1px solid #dadceb;
-    border-radius: 0.5rem;
   }
 }
 
@@ -53,12 +59,13 @@ article {
   font-family: "Abril Fatface", sans-serif;
   font-weight: 400;
   font-size: 2rem;
-  color: #3c55cc;
+  color: #000000;
 }
 
 .location {
-  color: #c8c9cb;
+  color: #06060690;
   text-transform: uppercase;
+  font-weight: 100;
   font-size: 0.95em;
 }
 
@@ -72,6 +79,8 @@ article {
 
   border-top: 2px solid #8a8a8d42;
   border-bottom: 2px solid #8a8a8d42;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
 
   li {
     flex: 1;
@@ -98,7 +107,7 @@ footer {
     border: none;
     line-height: 1;
     border-radius: 8px;
-    font-weight: 500;
+    font-weight: 800;
     font: inherit;
     background: #3c55cc;
     color: white;
