@@ -26,6 +26,16 @@ body {
   font-family: system-ui, sans-serif;
 }
 
+h1,
+h2,
+h3 {
+  color: var(--gray-900);
+}
+
+p {
+  color: var(--gray-600);
+}
+
 /* Dine styles her */
 article {
   max-width: 65ch;
