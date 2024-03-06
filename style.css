@@ -1,6 +1,41 @@
+:root {
+  line-height: 1.6;
+}
+
 /* Dine styles her */
 article {
   > * {
-    margin: 0.5rlh;
+    margin-top: var(--flow-spcae, 0.5rlh);
   }
 }
+
+h2 {
+  --flow-space: 2rlh;
+}
+
+h2 {
+  --flow-space: 1rlh;
+}
+
+h3 {
+  --flow-space: 25rlh;
+}
+
+:is(li, ul) {
+}
+/*
+h1,
+h2 {
+  font-size: 5rem;
+  line-height: 1.125;
+}
+
+.flow > * + * {
+  margin-block-start: 1rlh;
+}
+*/
+
+/*
+r i flow står for :root 
+
+.5rlh*/
