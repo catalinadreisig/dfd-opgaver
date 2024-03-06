@@ -26,13 +26,25 @@ body {
   font-family: system-ui, sans-serif;
 }
 
-h1 {
-  font-size: var(--step-5);
-}
+/* Dine styles her */
+article {
+  max-width: 65ch;
+  margin-inline: auto;
+  > * + * {
+    margin-top: var(--flow-spcae, 0.5rlh);
+  }
 
-h2 {
-  font-size: var(--step-4);
-}
-h3 {
-  font-size: var(--step-3);
+  h1 {
+    font-size: var(--step-5);
+    --flow-space: 2rlh;
+  }
+
+  h2 {
+    font-size: var(--step-4);
+    --flow-space: 2rlh;
+  }
+  h3 {
+    font-size: var(--step-3);
+    --flow-space: 25rlh;
+  }
 }
